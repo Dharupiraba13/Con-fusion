@@ -1,0 +1,36 @@
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.userInput {
+  width: fit-content;
+  margin: 20vh auto;
+  display: flex;
+  align-items: center;
+}
+
+.userInput input {
+  max-width: 400px;
+  width: 80vw;
+  padding: 5px 10px;
+  border: 0px;
+  border-bottom: 2px solid var(--priColor);
+  background-color: #14141441;
+  color: var(--priColor);
+  margin-right: -5px;
+  height: 30px;
+}
+
+.userInput button {
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}

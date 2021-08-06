@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+
+.product_demo {
+
+    font-size: 0;
+    padding: 0%;
+}
+
+.Timer {
+    margin-top: 10px;
+    float: right;
+    color: #EEEEEE;
+
+}
+
+.Product_display {
+    position: absolute;
+    font-weight: normal;
+    font-family: Alconica;
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Aclonica';
+    padding-top: 47px;
+    padding-left: 25%;
+    color: #00FF00;
+}
+
+.Button_enter>Button {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin-left: 46%;
+    margin-top: 10%;
+    font-family: 'Purple Purse', cursive;
+    color: #FFFF00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #003366;
+}
+
+.Button_enter>Button:hover {
+    background: yellow;
+    color: #003366;
+}

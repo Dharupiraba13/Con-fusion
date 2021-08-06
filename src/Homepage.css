@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+
+.Title {
+
+    position: absolute;
+    width: 589px;
+    height: 109px;
+    font-weight: normal;
+    font-family: Alconica;
+    font-size: 96px;
+    line-height: 109px;
+    text-align: center;
+    font-family: 'Aclonica';
+    padding-top: 47px;
+    padding-left: 30%;
+    color: #00FF00;
+}
+
+.User {
+    position: absolute;
+
+    height: 90px;
+    font-family: 'Purple Purse', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFF00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 18%;
+    padding-left: 40%;
+}
+
+input {
+    padding: 15px 35px;
+    font-size: 20px;
+    color: black;
+    background-color: lightgray;
+    border: 1px black;
+    border-radius: 30px;
+    margin-top: 5px;
+    size: 50;
+
+}
+
+input:focus {
+    outline: none;
+    color: black;
+}
+
+
+.User>Button {
+    font-size: 30px;
+    font-family: 'Purple Purse', cursive;
+    color: #FFFF00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #003366;
+}
+
+.User>Button:hover {
+    background: yellow;
+    color: #003366;
+}
